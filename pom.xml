@@ -18,7 +18,7 @@
 
     <groupId>com.infotech</groupId>
     <artifactId>pet-clinic-app</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>pet-clinic-app</name>
     <description>Spring Framework 5 Pet Clinic App</description>
 
@@ -40,6 +40,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
@@ -50,7 +51,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/michaelajiri/pet-clinic-app.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>pet-clinic-app-0.0.2</tag>
   </scm>
 
 </project>
