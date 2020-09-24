@@ -18,7 +18,7 @@
 
     <groupId>com.infotech</groupId>
     <artifactId>pet-clinic-app</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>pet-clinic-app</name>
     <description>Spring Framework 5 Pet Clinic App</description>
 
@@ -51,7 +51,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/michaelajiri/pet-clinic-app.git</developerConnection>
-      <tag>pet-clinic-app-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
