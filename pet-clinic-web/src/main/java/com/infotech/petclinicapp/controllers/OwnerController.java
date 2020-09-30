@@ -6,7 +6,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping(value = "/owners")
 public class OwnerController {
 
     private final OwnerService ownerService;
@@ -15,7 +14,7 @@ public class OwnerController {
         this.ownerService = ownerService;
     }
 
-    @RequestMapping(value = {"", "/", "/index", "/index.html"})
+    @RequestMapping(value = {"/owners", "/owners/index", "/owners/index.html"})
     public String ownersPage(Model model) {
         model.addAttribute("owners", ownerService.findAll());
         return "owners/index";
